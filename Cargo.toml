@@ -1,0 +1,8 @@
+[package]
+name = "ggwave-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Simple rust bindings for the ggwave lib"
+license = "MIT"
+
+[dependencies]
