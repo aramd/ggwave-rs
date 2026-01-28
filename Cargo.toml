@@ -3,7 +3,7 @@ members = ["ggwave-cli"]
 
 [package]
 name = "ggwave-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Rust bindings for ggwave, a library that encodes data into audio waveforms"
 license = "MIT"
