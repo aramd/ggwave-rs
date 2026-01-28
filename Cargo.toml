@@ -5,8 +5,13 @@ members = ["ggwave-cli"]
 name = "ggwave-rs"
 version = "0.1.0"
 edition = "2021"
-description = "Simple rust bindings for the ggwave lib"
+description = "Rust bindings for ggwave, a library that encodes data into audio waveforms"
 license = "MIT"
+repository = "https://github.com/aramd/ggwave-rs"
+readme = "README.md"
+keywords = ["audio", "ggwave", "ffi", "sound", "data-over-sound"]
+categories = ["multimedia::audio", "external-ffi-bindings"]
+authors = ["Aram Danielyan <aram.danielyan86@gmail.com>"]
 build = "build.rs"
 
 [lib]
