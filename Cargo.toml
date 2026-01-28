@@ -1,8 +1,26 @@
+[workspace]
+members = ["ggwave-cli"]
+
 [package]
 name = "ggwave-rs"
 version = "0.1.0"
 edition = "2021"
 description = "Simple rust bindings for the ggwave lib"
 license = "MIT"
+build = "build.rs"
+
+[lib]
+path = "src/lib.rs"
+name = "ggwave_rs"
+
+[features]
+default = ["vendored"]
+vendored = []
+system = []
 
 [dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = "1.0"
+pkg-config = "0.3"

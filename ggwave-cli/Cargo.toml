@@ -1,0 +1,15 @@
+[package]
+name = "ggwave-cli"
+version = "0.1.0"
+edition = "2021"
+description = "CLI tool for encoding/decoding data via audio waveforms"
+license = "MIT"
+
+[[bin]]
+name = "ggwave"
+path = "src/main.rs"
+
+[dependencies]
+ggwave-rs = { path = ".." }
+clap = { version = "4", features = ["derive"] }
+hound = "3.5"
